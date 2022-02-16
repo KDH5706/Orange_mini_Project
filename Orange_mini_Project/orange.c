@@ -108,7 +108,6 @@ void addLast(List* list, Player current_user)
     else 
     {
         newNode->linked_User = current_user;
-
         newNode->next = list->tail;
 
         last->next = newNode;
