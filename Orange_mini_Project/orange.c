@@ -74,10 +74,10 @@ typedef struct node
 
 typedef struct list
 {
-    P_Node* head;
-    P_Node* tail;
+    Node* head;
+    Node* tail;
     int size;
-} P_List;
+} List;
 
 void createlist(List* list)
 {
