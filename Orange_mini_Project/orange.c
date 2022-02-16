@@ -72,12 +72,6 @@ typedef struct node
     struct node* next;
 } Node;
 
-typedef struct p_node
-{
-    Player* linked_User;
-    struct node* next;
-} P_Node;
-
 typedef struct list
 {
     Node* head;
